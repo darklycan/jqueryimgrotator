@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Jquery Flip</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="flip/fliper.style.css" rel="stylesheet">
+        <script src="js/jquery.js"></script>
+        <script src="flip/fliper.jquery.js"></script>
+    </head>
+
+    <body>
+
+        <div class="pocket">
+
+            <div id="flip">
+
+                <div class="thumb size">
+
+                    <div id="box" class="item">
+                        <img src="images/img_1.jpg" class="img1" width="164" height="134">
+                        <img src="images/img_1a.jpg" class="img2" width="164" height="134">
+                    </div>
+
+                </div>
+
+                <div class="thumb size">
+
+                    <div id="box" class="item">
+                        <img src="images/img_2.jpg" class="img1" width="164" height="134">
+                        <img src="images/img_2a.jpg" class="img2" width="164" height="134">
+                    </div>
+
+                </div>
+
+                <div class="thumb size">
+
+                    <div id="box" class="item">
+                        <img src="images/img_3.jpg" class="img1" width="164" height="134">
+                        <img src="images/img_3a.jpg" class="img2" width="164" height="134">
+                    </div>
+
+                </div>
+
+                <div class="thumb size">
+
+                    <div id="box" class="item">
+                        <img src="images/img_4.jpg" class="img1" width="164" height="134">
+                        <img src="images/img_4a.jpg" class="img2" width="164" height="134">
+                    </div>
+
+                </div>
+
+
+                <div class="thumb size">
+
+                    <div id="box" class="item">
+
+                        <img src="images/img_5.jpg" class="img1" width="164" height="134">
+                        <img src="images/img_5a.jpg" class="img2" width="164" height="134">
+
+                    </div>
+
+                </div>
+
+                <div class="thumb size">
+
+                    <div id="box" class="item">
+                        <img src="images/img_6.jpg" class="img1" width="164" height="134">
+                        <img src="images/img_6a.jpg" class="img2" width="164" height="134">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('#flip').fliper({
+                    
+                    timeout: 2000
+
+                });
+
+            });
+        </script>        
+    </body>
+
+</html>
